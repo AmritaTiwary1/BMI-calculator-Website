@@ -1,3 +1,7 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
 .container {
     width: 575px;
     height: 825px;
@@ -5,6 +9,7 @@
     background-color: #797978;
     padding-left: 30px;
   }
+  
   #height,
   #weight {
     width: 150px;
@@ -16,13 +21,29 @@
     margin-left: 75px;
     margin-top: 25px;
   }
+
+  #calculate{
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background-color: green;
+    margin-right: 20px;
+  }
   
   #results {
     font-size: 35px;
     margin-left: 90px;
-    margin-top: 20px;
-    color: rgb(241, 241, 241);
+    padding: 10px 10px;
+    margin-top: 45px;
+    background-color: #fff;
+    color: rgb(44, 3, 3);
+    font-weight: bolder;
+    border-radius: 3px;
+    text-align: center;
+    border-color: #212121;
+    border: 3px solid black;
+    font-family:'Times New Roman', Times, serif;
   }
+ 
   
   button {
     width: 150px;
@@ -44,4 +65,4 @@
     padding-top: 25px;
     
   }
-  
+ 
